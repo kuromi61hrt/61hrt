@@ -1,5 +1,4 @@
 <div align="center">
-  <img src="Assets/screenshot-3.png" width="800"/>
   <h1 style="font-size: 3rem;">🧠 61hrt — The First Transparent AI Interface</h1>
   <p><em>“If LLMs could think out loud... this is what it would look like.”</em></p>
 </div>
