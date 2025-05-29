@@ -1,54 +1,105 @@
-# 61hrt: The First Ever Transparent AI
-
-## Overview
-
-Most Large Language Models (LLMs) today operate as opaque systems — they provide answers, but not the reasoning behind them. Whether used in education, research, or decision-making, this black-box behavior limits trust and usability. Users often ask:  
-**"Why did the model say this?"** or **"Can I trust this answer?"**
-
-**61hrt** is built to challenge that. It’s a lightweight, fully transparent AI interface that not only delivers answers but also **breaks down its reasoning step-by-step**, cites its **information sources**, and shows **probabilities behind its thinking**. Inspired by Explainable AI (XAI) principles, 61hrt lets users **see how the model thinks**.
-
-The model backend is powered by **Perplexity’s Sonar API**, known for its quality open-domain reasoning and source grounding. The front-end is designed using **Streamlit**, with a custom **monochrome interface** and minimalistic layout to reflect the model's clarity and purpose.
+<div align="center">
+  <img src="screenshot_1.png" width="800"/>
+  <h1 style="font-size: 3rem;">🧠 61hrt — The First Transparent AI Interface</h1>
+  <p><em>“If LLMs could think out loud... this is what it would look like.”</em></p>
+</div>
 
 ---
 
-## Key Features
+## 📜 Overview
 
-### ✅ Explainable Thought Process  
-- The AI breaks down each step of its reasoning and decision-making process in detail.
+Most LLMs today are **black boxes** — you ask a question, and they return an answer. No context. No source. No trust.
 
-### ✅ Source Transparency  
-- Shows the exact sources the model refers to (with links), allowing users to verify the information.
+**61hrt flips that script.**  
+It’s a sleek, lightweight, fully transparent AI interface that explains *exactly how* it thinks — step by step.
 
-### ✅ Confidence Estimates  
-- Probabilities are given at each reasoning step, reflecting the model’s certainty.
-
-### ✅ Final Answer  
-- A clear, concise final answer is provided separately after the explanation.
-
-### ✅ Custom Monochrome UI  
-- Styled using HTML/CSS injected into Streamlit to offer a sharp, focused interface.
-
-### ✅ Chat History + Recycle Bin + Archive  
-- Sidebar includes full session memory management for professional workflows.
+> Built using Streamlit + Perplexity Sonar API  
+> Designed for researchers, students, and builders who want explainability 🔍
 
 ---
 
-## Why 61hrt?
+## 🔍 Why 61hrt?
 
-While most LLM chat interfaces behave like oracles—producing answers without context—**61hrt** is designed as a **thinking companion**.
+> “Can I trust this model?”  
+> “Where did it get that info?”  
+> “What’s the logic behind this answer?”
 
-This makes it valuable for:
-- Researchers and analysts verifying factual accuracy  
-- Students learning how reasoning chains work  
-- Developers building transparent AI pipelines  
+61hrt answers all of those. It shows:
+- 💡 Reasoning steps  
+- 🔗 Source links  
+- 📊 Confidence levels  
+- ✅ Final Answer (after thinking)
+
+You don’t get a guess — you get a **thought process**.
 
 ---
 
-## Built With
+## 🧠 Key Features
 
-- [Streamlit](https://streamlit.io/) — For creating the interactive web app  
-- [Perplexity AI Sonar API](https://docs.perplexity.ai/) — LLM API backend for reasoning and source citations  
+| Feature | Description |
+|--------|-------------|
+| 🧩 **Explainable Thought Process** | See how the model breaks down complex queries, step by step |
+| 🔗 **Source Transparency** | Clickable links to the model’s knowledge sources |
+| 🎯 **Confidence Estimates** | Probabilities showing how sure the model is at each step |
+| 💬 **Final Answer** | Clean summary, separated from the reasoning |
+| 🎨 **Custom Monochrome UI** | Sharp, minimal Streamlit UI using HTML/CSS injection |
+| 🗂️ **Chat History + Archive + Bin** | Full memory control in the sidebar |
+
+---
+
+## 📸 Screenshots
+
+<p align="center">
+  <img src="screenshot_1.png" width="700" alt="Front Page">
+  <br><em>🔲 Welcome screen with monochrome UI</em>
+</p>
+
+<p align="center">
+  <img src="screenshot_2.png" width="700" alt="Main App Interface">
+  <br><em>🧠 Full explanation + source citations + confidence estimates</em>
+</p>
+
+---
+
+## 🛠️ Built With
+
+- [Streamlit](https://streamlit.io) — Frontend framework
+- [Perplexity AI Sonar API](https://labs.perplexity.ai) — Reasoning engine with sources
 - Python 3.8+
+- Markdown + CSS styling
 
 ---
+
+## 🚀 How to Run
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/your-username/61hrt.git
+cd 61hrt
+
+# 2. Install dependencies
+pip install streamlit requests
+
+# 3. Add your Perplexity API key
+# Inside your main Python file:
+API_KEY = "your-perplexity-api-key-here"
+
+# 4. Run the app
+streamlit run LLM.py
+
+
+**61hrt lets you see what the model thinks before it speaks.**
+
+---
+
+<div align="center">
+
+### 💫 If this made you rethink how AI can explain itself...  
+### ⭐ Star it. Share it. Let it spark something.
+
+<p>
+  <em>– Made with love by Kuromi ♡</em>
+</p>
+
+</div>
 
