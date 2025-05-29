@@ -1,5 +1,5 @@
 <div align="center">
-  <h1 style="font-size: 3rem;">🧠 61hrt — The First Transparent AI Interface</h1>
+  <h1 style="font-size: 3rem;">🧠 61hrt — The First Ever XAI</h1>
   <p><em>“If LLMs could think out loud... this is what it would look like.”</em></p>
 </div>
 
@@ -86,6 +86,24 @@ API_KEY = "your-perplexity-api-key-here"
 
 # 4. Launch the app
 streamlit run LLM.py
+```
+
+---
+
+<div align="center">
+
+### 💫 If this made you rethink how AI can explain itself...  
+### ⭐ Star it. Share it. Let it spark something.
+
+<p>
+  <em>– Made with love by Kuromi ♡</em>
+</p>
+
+</div>
+
+
+
+
 
 
 
