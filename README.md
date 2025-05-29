@@ -51,12 +51,12 @@ It’s a sleek, lightweight, fully transparent AI interface that explains *exact
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="Assets/screenshot_1.png" width="700" alt="Front Page">
+  <img src="Assets/screenshot-1.png" width="700" alt="Front Page">
   <br><em>🔲 Minimal welcome screen — clean, sharp, and focused</em>
 </p>
 
 <p align="center">
-  <img src="Assets/screenshot_2.png" width="700" alt="Main App Interface">
+  <img src="Assets/screenshot-2.png" width="700" alt="Main App Interface">
   <br><em>🧠 Transparent AI in action — explanations, sources, and certainty</em>
 </p>
 
